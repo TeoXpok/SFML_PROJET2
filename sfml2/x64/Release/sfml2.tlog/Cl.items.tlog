@@ -1,8 +1,10 @@
 C:\Users\tgoncalves\Documents\GitHub\SFML_PROJET2\sfml2\Enemy.cpp;C:\Users\tgoncalves\Documents\GitHub\SFML_PROJET2\sfml2\x64\Release\Enemy.obj
 C:\Users\tgoncalves\Documents\GitHub\SFML_PROJET2\sfml2\Entity.cpp;C:\Users\tgoncalves\Documents\GitHub\SFML_PROJET2\sfml2\x64\Release\Entity.obj
+C:\Users\tgoncalves\Documents\GitHub\SFML_PROJET2\sfml2\Floor.cpp;C:\Users\tgoncalves\Documents\GitHub\SFML_PROJET2\sfml2\x64\Release\Floor.obj
 C:\Users\tgoncalves\Documents\GitHub\SFML_PROJET2\sfml2\Item.cpp;C:\Users\tgoncalves\Documents\GitHub\SFML_PROJET2\sfml2\x64\Release\Item.obj
 C:\Users\tgoncalves\Documents\GitHub\SFML_PROJET2\sfml2\Item.h;C:\Users\tgoncalves\Documents\GitHub\SFML_PROJET2\sfml2\x64\Release\Item.obj
 C:\Users\tgoncalves\Documents\GitHub\SFML_PROJET2\sfml2\main.cpp;C:\Users\tgoncalves\Documents\GitHub\SFML_PROJET2\sfml2\x64\Release\main.obj
 C:\Users\tgoncalves\Documents\GitHub\SFML_PROJET2\sfml2\PatrollingEnemy.cpp;C:\Users\tgoncalves\Documents\GitHub\SFML_PROJET2\sfml2\x64\Release\PatrollingEnemy.obj
 C:\Users\tgoncalves\Documents\GitHub\SFML_PROJET2\sfml2\Player.cpp;C:\Users\tgoncalves\Documents\GitHub\SFML_PROJET2\sfml2\x64\Release\Player.obj
 C:\Users\tgoncalves\Documents\GitHub\SFML_PROJET2\sfml2\Potion.cpp;C:\Users\tgoncalves\Documents\GitHub\SFML_PROJET2\sfml2\x64\Release\Potion.obj
+C:\Users\tgoncalves\Documents\GitHub\SFML_PROJET2\sfml2\Tile.cpp;C:\Users\tgoncalves\Documents\GitHub\SFML_PROJET2\sfml2\x64\Release\Tile.obj

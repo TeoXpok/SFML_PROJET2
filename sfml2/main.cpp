@@ -2,19 +2,21 @@
 #include"Player.h"
 #include"PatrollingEnemy.h"
 #include"Potion.h"
+#include"Floor.h"
 
 using namespace sf;
 
 int main() {
 
-    RenderWindow window(VideoMode(800, 600), "Projet SFML 2");
+    RenderWindow window(VideoMode(1000, 1000), "Projet SFML 2");
+    
     window.setFramerateLimit(120);
 
+    Floor f = Floor(500, 500);
 
-    Player player = Player(50, 50);
-    PatrollingEnemy z = PatrollingEnemy(200, 200, "ZZZZZZZZZZ           QQQQQQQQQQ           SSSSSSSSSS           DDDDDDDDDD");
-    Potion p = Potion(500, 500);
-
+    RectangleShape rect = RectangleShape(Vector2f(1000, 200));
+    rect.setFillColor(Color::Black);
+    rect.setPosition(0, 0);
 
 
     while (window.isOpen()) {
@@ -23,18 +25,13 @@ int main() {
             if (event.type == Event::Closed)
                 window.close(); 
         }
+        if (Keyboard::isKeyPressed(Keyboard::Escape)) { window.close(); }
 
-
-        player.update(window, player.sprite);
-        z.update(window, player.sprite);
-        p.update(window, player.sprite);
 
 
         window.clear(Color::White);
-        player.draw(window);
-        z.draw(window);
-        p.draw(window);
-
+        window.draw(rect);
+        f.draw(window);
         window.display();
     }
 

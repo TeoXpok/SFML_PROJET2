@@ -13,6 +13,7 @@ public:
 
     virtual void interact(Sprite spriteP) = 0;
 
+
 };
 
 

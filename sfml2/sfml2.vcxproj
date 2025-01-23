@@ -134,19 +134,23 @@
   <ItemGroup>
     <ClCompile Include="Enemy.cpp" />
     <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="Floor.cpp" />
     <ClCompile Include="Item.cpp" />
     <ClCompile Include="Item.h" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="PatrollingEnemy.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="Potion.cpp" />
+    <ClCompile Include="Tile.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Enemy.h" />
     <ClInclude Include="Entity.h" />
+    <ClInclude Include="Floor.h" />
     <ClInclude Include="PatrollingEnemy.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="Potion.h" />
+    <ClInclude Include="Tile.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

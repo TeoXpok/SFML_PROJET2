@@ -5,7 +5,7 @@ using namespace sf;
 
 PatrollingEnemy::PatrollingEnemy(int x, int y, string paterne) : paterne(paterne), Enemy(x, y, vitesse) {
 
-    if (!texture.loadFromFile("assets\\Zombos2.png")) {
+    if (!texture.loadFromFile("assets\\Zombos1.png")) {
         std::cerr << "Erreur : impossible de charger 'Zombos2'" << std::endl;
     }
     sprite.setTexture(texture);
@@ -18,6 +18,7 @@ PatrollingEnemy::PatrollingEnemy(int x, int y, string paterne) : paterne(paterne
 void PatrollingEnemy::colisionplayer(Sprite spriteP) {
     sf::FloatRect rect1 = sprite.getGlobalBounds();
     sf::FloatRect rect2 = spriteP.getGlobalBounds();
+    rect1.intersects(rect2);
 };
 
 void PatrollingEnemy::patrouille(){
