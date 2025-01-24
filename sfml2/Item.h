@@ -10,7 +10,7 @@ class Item : public Entity
 public:
 
     Item(int x, int y);
-
+    bool used = false;
     virtual void interact(Sprite spriteP) = 0;
 
 

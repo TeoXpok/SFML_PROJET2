@@ -140,17 +140,20 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="PatrollingEnemy.cpp" />
     <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Pillar.cpp" />
     <ClCompile Include="Potion.cpp" />
-    <ClCompile Include="Tile.cpp" />
+    <ClCompile Include="Wall.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Enemy.h" />
     <ClInclude Include="Entity.h" />
     <ClInclude Include="Floor.h" />
+    <ClInclude Include="Map.h" />
     <ClInclude Include="PatrollingEnemy.h" />
+    <ClInclude Include="Pillar.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="Potion.h" />
-    <ClInclude Include="Tile.h" />
+    <ClInclude Include="Wall.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

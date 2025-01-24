@@ -13,7 +13,7 @@ public:
 
     float vitesse;
 
-    virtual void colisionplayer(Sprite spriteP) = 0;
+    virtual bool colisionplayer(Sprite spriteP) = 0;
 
 
 };

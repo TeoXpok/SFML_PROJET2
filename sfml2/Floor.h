@@ -1,13 +1,16 @@
 #pragma once
 #ifndef FLOOR_H
 #define FLOOR_H
-#include "Tile.h"
+#include "Entity.h"
 
-class Floor : public Tile
+class Floor : public Entity
 {
 public:
 	Floor(int x, int y);
-	void draw(RenderWindow& window);
+
+	void update(RenderWindow& window, Sprite spriteP) override;
+	void draw(RenderWindow& window) override;
+	
 };
 
 

@@ -1,10 +1,35 @@
-﻿  Floor.cpp
+﻿  Enemy.cpp
+  Entity.cpp
+  Floor.cpp
 C:\Users\tgoncalves\Documents\GitHub\SFML_PROJET2\sfml2\Floor.cpp(12,27): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
 C:\Users\tgoncalves\Documents\GitHub\SFML_PROJET2\sfml2\Floor.cpp(12,24): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+  Item.cpp
+  Item.h
+  main.cpp
+  PatrollingEnemy.cpp
+C:\Users\tgoncalves\Documents\GitHub\SFML_PROJET2\sfml2\PatrollingEnemy.cpp(51,27): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+C:\Users\tgoncalves\Documents\GitHub\SFML_PROJET2\sfml2\PatrollingEnemy.cpp(51,24): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+  Player.cpp
+C:\Users\tgoncalves\Documents\GitHub\SFML_PROJET2\sfml2\Player.cpp(37,14): warning C4244: '+=' : conversion de 'float' en 'int', perte possible de données
+C:\Users\tgoncalves\Documents\GitHub\SFML_PROJET2\sfml2\Player.cpp(40,14): warning C4244: '+=' : conversion de 'float' en 'int', perte possible de données
+C:\Users\tgoncalves\Documents\GitHub\SFML_PROJET2\sfml2\Player.cpp(43,14): warning C4244: '+=' : conversion de 'float' en 'int', perte possible de données
+C:\Users\tgoncalves\Documents\GitHub\SFML_PROJET2\sfml2\Player.cpp(46,14): warning C4244: '+=' : conversion de 'float' en 'int', perte possible de données
+C:\Users\tgoncalves\Documents\GitHub\SFML_PROJET2\sfml2\Player.cpp(48,27): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+C:\Users\tgoncalves\Documents\GitHub\SFML_PROJET2\sfml2\Player.cpp(48,24): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+  Pillar.cpp
+C:\Users\tgoncalves\Documents\GitHub\SFML_PROJET2\sfml2\Pillar.cpp(13,27): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+C:\Users\tgoncalves\Documents\GitHub\SFML_PROJET2\sfml2\Pillar.cpp(13,24): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+C:\Users\tgoncalves\Documents\GitHub\SFML_PROJET2\sfml2\Pillar.cpp(26,31): warning C4244: '+=' : conversion de 'float' en 'int', perte possible de données
+C:\Users\tgoncalves\Documents\GitHub\SFML_PROJET2\sfml2\Pillar.cpp(29,32): warning C4244: '+=' : conversion de 'float' en 'int', perte possible de données
+C:\Users\tgoncalves\Documents\GitHub\SFML_PROJET2\sfml2\Pillar.cpp(32,32): warning C4244: '-=' : conversion de 'float' en 'int', perte possible de données
+C:\Users\tgoncalves\Documents\GitHub\SFML_PROJET2\sfml2\Pillar.cpp(35,32): warning C4244: '-=' : conversion de 'float' en 'int', perte possible de données
+  Potion.cpp
+C:\Users\tgoncalves\Documents\GitHub\SFML_PROJET2\sfml2\Potion.cpp(33,27): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+C:\Users\tgoncalves\Documents\GitHub\SFML_PROJET2\sfml2\Potion.cpp(33,24): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+  Wall.cpp
 x64\Release\Item.obj : warning LNK4042: objet spécifié plus d'une fois ; définitions supplémentaires ignorées
   Génération de code en cours
-  2 of 83 functions ( 2.4%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
+  Previous IPDB not found, fall back to full compilation.
+  All 430 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   Fin de la génération du code
   sfml2.vcxproj -> C:\Users\tgoncalves\Documents\GitHub\SFML_PROJET2\x64\Release\sfml2.exe

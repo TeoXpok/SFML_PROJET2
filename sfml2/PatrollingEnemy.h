@@ -18,7 +18,7 @@ public:
 
     void update(RenderWindow& window, Sprite spriteP) override;
     void draw(RenderWindow& window) override;
-    void colisionplayer(Sprite sprite) override;
+    bool colisionplayer(Sprite spriteP) override;
     void patrouille();
 
 };

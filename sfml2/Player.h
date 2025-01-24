@@ -11,11 +11,14 @@ class Player : public Entity
 public:
 
     float vitesse;
+    bool boosted = false;
+    Clock speedClock;
+    
     Player(int x, int y);
 
     void update(RenderWindow& window, Sprite spriteP) override;
     void draw(RenderWindow& window) override;
-
+    void speedboost();
 }; 
 
 

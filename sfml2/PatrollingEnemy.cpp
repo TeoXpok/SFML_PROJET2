@@ -15,10 +15,10 @@ PatrollingEnemy::PatrollingEnemy(int x, int y, string paterne) : paterne(paterne
 }
 
 
-void PatrollingEnemy::colisionplayer(Sprite spriteP) {
+bool PatrollingEnemy::colisionplayer(Sprite spriteP) {
     sf::FloatRect rect1 = sprite.getGlobalBounds();
     sf::FloatRect rect2 = spriteP.getGlobalBounds();
-    rect1.intersects(rect2);
+    return rect1.intersects(rect2);
 };
 
 void PatrollingEnemy::patrouille(){
@@ -49,6 +49,7 @@ void PatrollingEnemy::update(RenderWindow& window, Sprite spriteP) {
     patrouille();
     colisionplayer(spriteP);
     sprite.setPosition(x, y);
+    draw(window);
 }
 
 

@@ -8,15 +8,35 @@ Player::Player(int x, int y) : Entity(x, y) {
     sprite.setTexture(texture);
     sprite.setOrigin(texture.getSize().x / 2.f, texture.getSize().y / 2.f);
     sprite.setScale(Vector2f(2, 2));
-
+    
     vitesse = 2;
 }
 
+void Player::speedboost() {
+    if (!boosted)
+    {
+        vitesse = vitesse * 3;
+        boosted = true;
+        speedClock.restart();
+    }
+}
+
+
+void Player::draw(RenderWindow& window) {
+
+    window.draw(sprite);
+}
+
+
 void Player::update(RenderWindow& window, Sprite spriteP){
+    if (boosted && speedClock.getElapsedTime().asSeconds() >= 4) {
+        vitesse = vitesse / 3;
+        boosted = false;
+    }
     if (Keyboard::isKeyPressed(Keyboard::Q) && x - vitesse - texture.getSize().x > 0) {
         x += -vitesse;
     }
-    if (Keyboard::isKeyPressed(Keyboard::Z) && y - vitesse - texture.getSize().y -10 > 0) {
+    if (Keyboard::isKeyPressed(Keyboard::Z) && y - vitesse - texture.getSize().y -10 > 200) {
         y += -vitesse;
     }
     if (Keyboard::isKeyPressed(Keyboard::S) && y + vitesse + texture.getSize().y + 15< window.getSize().y) {
@@ -26,9 +46,6 @@ void Player::update(RenderWindow& window, Sprite spriteP){
         x += vitesse; 
     }
     sprite.setPosition(x, y);
+    draw(window);
 }
 
-void Player::draw(RenderWindow& window) {
-
-    window.draw(sprite);
-}
